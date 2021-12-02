@@ -1,0 +1,90 @@
+main {
+  --bar-height: 8vh;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  height: calc(100vh - 20px - var(--bar-height) - 50px);
+}
+
+.dropdown {
+  position: relative;
+  top: 10vh;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown > * {
+  flex: calc(1 / 2);
+}
+
+.dropdown select {
+  padding: 6px 15px;
+}
+
+.container {
+  position: relative;
+  top: 15vh;
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+li {
+  display: block;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group > div {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin-bottom: 20px;
+  padding: 6px 0;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+.left {
+  margin-right: 20px;
+}
+.left > * {
+  padding-bottom: 12px;
+}
+.right {
+  flex: 0.9;
+}
+.right input {
+  width: 100%;
+}
+.form-group > div > * {
+  margin-bottom: 10px;
+}
+input {
+  padding: 6px 15px;
+}
+.marks > ul > * {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 10px;
+  border: 0;
+  background: black;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+  margin-bottom: 30px;
+}
+button:hover {
+  background: gray;
+}
+
+button:active {
+  transform: scale(0.98);
+}

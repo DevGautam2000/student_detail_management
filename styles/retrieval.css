@@ -1,0 +1,79 @@
+.wrapper {
+  padding: 0;
+  flex: 0;
+  width: 20%;
+  position: relative;
+  top: 10vh;
+  display: flex;
+  align-items: center !important;
+}
+
+input {
+  padding: 6px 10px;
+}
+#avg {
+  width: 100%;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+button {
+  padding: 7px 10px !important;
+  background: black !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.data {
+  position: relative;
+  top: 15vh;
+}
+
+table {
+  width: 60vw;
+}
+
+tr:nth-child(1) > td {
+  font-weight: bold;
+}
+td {
+  border-bottom: 1px solid black;
+  padding: 15px;
+  text-align: left;
+}
+
+.update_data {
+  margin-top: 30px;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group > div {
+  display: flex;
+  flex-direction: column;
+}
+.form-group > div > * {
+  margin-bottom: 10px;
+}
+.left {
+  margin-right: 20px;
+}
+.left > * {
+  padding-bottom: 12px;
+}
+.right {
+  flex: 0.9;
+}
+.right input {
+  width: 100%;
+}
+input {
+  padding: 6px 15px;
+}
+.marks > ul > * {
+  margin-bottom: 10px;
+}
+li {
+  display: block;
+}
