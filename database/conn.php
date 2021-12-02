@@ -32,4 +32,4 @@ $sql_2 = "CREATE TABLE creds(
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";
 
 $conn->query($sql);
-$conn->query($sql2);
+$conn->query($sql_2);
